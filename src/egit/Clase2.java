@@ -2,6 +2,7 @@ package egit;
 
 public class Clase2 extends Clase1 {
 	private float sueldo;
+	private String observaciones;
 
 	public Clase2(int id, String nombre, float sueldo) {
 		super(id, nombre);
