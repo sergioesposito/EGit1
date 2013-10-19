@@ -25,16 +25,17 @@ public class Clase2 extends Clase1 {
 		this.observaciones = observaciones;
 	}
 
-	public void aumentarSueldo(float aumento) {
+	public void aumentarSueldo(float aumento, float porcBonificacion) {
 		float nuevoSueldo;
-		nuevoSueldo = getSueldo() + aumento;
+
+		nuevoSueldo = getSueldo() + aumento * (1 + porcBonificacion / 100);
 		setSueldo(nuevoSueldo);
 	}
 
 	@Override
 	public String toString() {
-		return "Clase2 [sueldo=" + sueldo + ", observaciones=" + observaciones
+		return "Clase2 es [sueldo=" + sueldo + ", observaciones=" + observaciones
 				+ "]";
 	}
-	
+
 }
