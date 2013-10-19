@@ -26,4 +26,11 @@ public class Clase1 {
 		this.nombre = nombre;
 	}
 
+	@Override
+	public String toString() {
+		return "Clase1 [id=" + id + ", nombre=" + nombre + "]";
+	}
+	
+	
+
 }
