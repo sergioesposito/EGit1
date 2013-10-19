@@ -16,4 +16,9 @@ public class Clase2 extends Clase1 {
 		this.sueldo = sueldo;
 	}
 
+	public void aumentarSueldo(float aumento) {
+		float nuevoSueldo;
+		nuevoSueldo = getSueldo() + aumento;
+		setSueldo(nuevoSueldo);
+	}
 }
