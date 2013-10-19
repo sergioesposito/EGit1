@@ -34,7 +34,7 @@ public class Clase2 extends Clase1 {
 
 	@Override
 	public String toString() {
-		return "Clase2 [sueldo=" + sueldo + ", observaciones=" + observaciones
+		return "Clase2 es [sueldo=" + sueldo + ", observaciones=" + observaciones
 				+ "]";
 	}
 
