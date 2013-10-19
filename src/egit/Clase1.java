@@ -30,6 +30,10 @@ public class Clase1 {
 
 	}
 
+	public void dummy2() {
+
+	}
+
 	@Override
 	public String toString() {
 		return "Clase1 [id=" + id + ", nombre=" + nombre + "]";
